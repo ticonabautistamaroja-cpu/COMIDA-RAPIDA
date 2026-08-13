@@ -1,0 +1,108 @@
+body{
+    background:llinear-gradienti(
+        to left,
+        rgb(173, 7, 146),
+        orange
+    );
+
+}
+h1{
+     background:llinear-gradienti(
+        to left,
+        rgb(173, 7, 146),
+        orange
+    );
+}
+header{
+    background:linear-gradient(
+        to left,
+        rgb(59, 139, 49),
+        rgb(82, 138, 184)
+    );
+    list-style: none;
+    display: flex;
+    align-items: center;
+   
+}
+ul{
+      list-style: none;
+    display: flex;
+
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    margin: 30px;
+    color: rgb(177, 14, 90); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+ul li:hover{
+    color: rgb(13, 156, 56);
+    font-size:large;
+    cursor:pointer;
+}
+
+footer{
+    background-color: linear - gradient(
+        red,
+        rgb(14, 156, 56)
+    );
+}
+
+img{
+    color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20;
+    font-size: xx-large;
+}
+
+footer{
+    background:linear-gradient(
+        to right,
+        rgb(57, 10, 167),
+        rgb(190, 117, 21)
+
+    );
+}
+
+.imagenfondo{
+    background-image: url(script.js.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    height:550px;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    display:flex;
+}
+
+.fondooscuro{
+    
+    background:rgba(21, 199, 30, 0.6) ;
+    padding: 50px;
+    width:40%;
+    border-radius: 55% ;
+}
+
+h2{
+    color:bisque;
+    font-size: large;
+}
+.boton{
+    color: orange;
+    background-color: darkred;
+    padding: 15px 90px;
+    font-size: medium;
+    border-radius: 30px;
+
+}
+.boton:hover{
+    color: bisque;
+    transform: scale(1.1);
+    cursor: pointer;
+    font-weight: bold;
+}
